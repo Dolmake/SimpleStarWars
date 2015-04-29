@@ -12,6 +12,8 @@
 		65994EF91AF145EE0079BFBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65994EF81AF145EE0079BFBD /* Images.xcassets */; };
 		65994EFC1AF145EE0079BFBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65994EFA1AF145EE0079BFBD /* LaunchScreen.xib */; };
 		65994F081AF145EE0079BFBD /* SimpleStarWarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65994F071AF145EE0079BFBD /* SimpleStarWarsTests.m */; };
+		65994F141AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65994F121AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.m */; };
+		65994F151AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65994F131AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		65994F011AF145EE0079BFBD /* SimpleStarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65994F061AF145EE0079BFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65994F071AF145EE0079BFBD /* SimpleStarWarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleStarWarsTests.m; sourceTree = "<group>"; };
+		65994F111AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMKStarWarsCharacterTableViewController.h; sourceTree = "<group>"; };
+		65994F121AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMKStarWarsCharacterTableViewController.m; sourceTree = "<group>"; };
+		65994F131AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLMKStarWarsCharacterTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 				65994EF81AF145EE0079BFBD /* Images.xcassets */,
 				65994EFA1AF145EE0079BFBD /* LaunchScreen.xib */,
 				65994EF11AF145EE0079BFBD /* Supporting Files */,
+				65994F161AF148A00079BFBD /* Controllers */,
 			);
 			path = SimpleStarWars;
 			sourceTree = "<group>";
@@ -109,6 +115,16 @@
 				65994F061AF145EE0079BFBD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65994F161AF148A00079BFBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65994F111AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.h */,
+				65994F121AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.m */,
+				65994F131AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65994F151AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.xib in Resources */,
 				65994EFC1AF145EE0079BFBD /* LaunchScreen.xib in Resources */,
 				65994EF91AF145EE0079BFBD /* Images.xcassets in Resources */,
 			);
@@ -212,6 +229,7 @@
 			files = (
 				65994EF71AF145EE0079BFBD /* AppDelegate.m in Sources */,
 				65994EF41AF145EE0079BFBD /* main.m in Sources */,
+				65994F141AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
