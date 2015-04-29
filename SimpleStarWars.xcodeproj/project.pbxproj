@@ -21,6 +21,7 @@
 		65994F221AF1497A0079BFBD /* R2-D2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65994F1B1AF1497A0079BFBD /* R2-D2.jpg */; };
 		65994F231AF1497A0079BFBD /* tarkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65994F1C1AF1497A0079BFBD /* tarkin.jpg */; };
 		65994F241AF1497A0079BFBD /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65994F1D1AF1497A0079BFBD /* yoda.jpg */; };
+		65994F281AF14A500079BFBD /* DLMKStarWarsCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65994F271AF14A500079BFBD /* DLMKStarWarsCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		65994F1B1AF1497A0079BFBD /* R2-D2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R2-D2.jpg"; sourceTree = "<group>"; };
 		65994F1C1AF1497A0079BFBD /* tarkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tarkin.jpg; sourceTree = "<group>"; };
 		65994F1D1AF1497A0079BFBD /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoda.jpg; sourceTree = "<group>"; };
+		65994F261AF14A500079BFBD /* DLMKStarWarsCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMKStarWarsCharacter.h; sourceTree = "<group>"; };
+		65994F271AF14A500079BFBD /* DLMKStarWarsCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMKStarWarsCharacter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 				65994EFA1AF145EE0079BFBD /* LaunchScreen.xib */,
 				65994EF11AF145EE0079BFBD /* Supporting Files */,
 				65994F161AF148A00079BFBD /* Controllers */,
+				65994F291AF14A580079BFBD /* Models */,
 			);
 			path = SimpleStarWars;
 			sourceTree = "<group>";
@@ -154,6 +158,15 @@
 				65994F1D1AF1497A0079BFBD /* yoda.jpg */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		65994F291AF14A580079BFBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65994F261AF14A500079BFBD /* DLMKStarWarsCharacter.h */,
+				65994F271AF14A500079BFBD /* DLMKStarWarsCharacter.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 			files = (
 				65994EF71AF145EE0079BFBD /* AppDelegate.m in Sources */,
 				65994EF41AF145EE0079BFBD /* main.m in Sources */,
+				65994F281AF14A500079BFBD /* DLMKStarWarsCharacter.m in Sources */,
 				65994F141AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
