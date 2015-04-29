@@ -7,8 +7,11 @@
 //
 
 #import "DLMKStarWarsCharacterTableViewController.h"
+#import "DLMKStarWarsCharacter.h"
 
 @interface DLMKStarWarsCharacterTableViewController ()
+
+@property (nonatomic, strong) NSArray* characters;
 
 @end
 
@@ -22,6 +25,9 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"CELL_ID"];
+    [self loadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,26 +38,32 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
+//#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
+//#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return self.characters.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CELL_ID" forIndexPath:indexPath];
+    
+    if (cell == nil){
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CELL_ID" ];
+    }
     
     // Configure the cell...
+    cell.backgroundColor = [UIColor orangeColor ];
+    cell.textLabel.text = [self.characters[indexPath.row] name];
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -112,5 +124,30 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(void) loadData{
+    
+    
+    DLMKStarWarsCharacter* yoda = [[DLMKStarWarsCharacter alloc] initWith:@"Yoda" andPhoto:nil];
+        DLMKStarWarsCharacter* c3po = [[DLMKStarWarsCharacter alloc] initWith:@"C3po" andPhoto:nil];
+        DLMKStarWarsCharacter* chew = [[DLMKStarWarsCharacter alloc] initWith:@"Chewbacca" andPhoto:nil];
+        DLMKStarWarsCharacter* vader = [[DLMKStarWarsCharacter alloc] initWith:@"DarthVader" andPhoto:nil];
+    
+    self.characters = @[yoda, c3po, chew, vader];
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end
