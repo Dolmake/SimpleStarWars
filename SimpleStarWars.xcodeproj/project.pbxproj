@@ -22,6 +22,8 @@
 		65994F231AF1497A0079BFBD /* tarkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65994F1C1AF1497A0079BFBD /* tarkin.jpg */; };
 		65994F241AF1497A0079BFBD /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65994F1D1AF1497A0079BFBD /* yoda.jpg */; };
 		65994F281AF14A500079BFBD /* DLMKStarWarsCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65994F271AF14A500079BFBD /* DLMKStarWarsCharacter.m */; };
+		65994F2D1AF1583F0079BFBD /* DLMKWikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65994F2B1AF1583F0079BFBD /* DLMKWikiViewController.m */; };
+		65994F2E1AF1583F0079BFBD /* DLMKWikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65994F2C1AF1583F0079BFBD /* DLMKWikiViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		65994F1D1AF1497A0079BFBD /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoda.jpg; sourceTree = "<group>"; };
 		65994F261AF14A500079BFBD /* DLMKStarWarsCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMKStarWarsCharacter.h; sourceTree = "<group>"; };
 		65994F271AF14A500079BFBD /* DLMKStarWarsCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMKStarWarsCharacter.m; sourceTree = "<group>"; };
+		65994F2A1AF1583F0079BFBD /* DLMKWikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMKWikiViewController.h; sourceTree = "<group>"; };
+		65994F2B1AF1583F0079BFBD /* DLMKWikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMKWikiViewController.m; sourceTree = "<group>"; };
+		65994F2C1AF1583F0079BFBD /* DLMKWikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLMKWikiViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +147,9 @@
 				65994F111AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.h */,
 				65994F121AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.m */,
 				65994F131AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.xib */,
+				65994F2A1AF1583F0079BFBD /* DLMKWikiViewController.h */,
+				65994F2B1AF1583F0079BFBD /* DLMKWikiViewController.m */,
+				65994F2C1AF1583F0079BFBD /* DLMKWikiViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -251,6 +259,7 @@
 			files = (
 				65994F1E1AF1497A0079BFBD /* c3po.jpg in Resources */,
 				65994F151AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.xib in Resources */,
+				65994F2E1AF1583F0079BFBD /* DLMKWikiViewController.xib in Resources */,
 				65994F201AF1497A0079BFBD /* darthVader.jpg in Resources */,
 				65994F1F1AF1497A0079BFBD /* chewbacca.jpg in Resources */,
 				65994EFC1AF145EE0079BFBD /* LaunchScreen.xib in Resources */,
@@ -277,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65994EF71AF145EE0079BFBD /* AppDelegate.m in Sources */,
+				65994F2D1AF1583F0079BFBD /* DLMKWikiViewController.m in Sources */,
 				65994EF41AF145EE0079BFBD /* main.m in Sources */,
 				65994F281AF14A500079BFBD /* DLMKStarWarsCharacter.m in Sources */,
 				65994F141AF148960079BFBD /* DLMKStarWarsCharacterTableViewController.m in Sources */,
