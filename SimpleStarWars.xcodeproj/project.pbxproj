@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65994EF41AF145EE0079BFBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65994EF31AF145EE0079BFBD /* main.m */; };
+		65994EF71AF145EE0079BFBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65994EF61AF145EE0079BFBD /* AppDelegate.m */; };
+		65994EF91AF145EE0079BFBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65994EF81AF145EE0079BFBD /* Images.xcassets */; };
+		65994EFC1AF145EE0079BFBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65994EFA1AF145EE0079BFBD /* LaunchScreen.xib */; };
+		65994F081AF145EE0079BFBD /* SimpleStarWarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65994F071AF145EE0079BFBD /* SimpleStarWarsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65994F021AF145EE0079BFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65994EE61AF145EE0079BFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65994EED1AF145EE0079BFBD;
+			remoteInfo = SimpleStarWars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65994EEE1AF145EE0079BFBD /* SimpleStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65994EF21AF145EE0079BFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65994EF31AF145EE0079BFBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65994EF51AF145EE0079BFBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65994EF61AF145EE0079BFBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65994EF81AF145EE0079BFBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65994EFB1AF145EE0079BFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		65994F011AF145EE0079BFBD /* SimpleStarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleStarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65994F061AF145EE0079BFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65994F071AF145EE0079BFBD /* SimpleStarWarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleStarWarsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65994EEB1AF145EE0079BFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65994EFE1AF145EE0079BFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65994EE51AF145EE0079BFBD = {
+			isa = PBXGroup;
+			children = (
+				65994EF01AF145EE0079BFBD /* SimpleStarWars */,
+				65994F041AF145EE0079BFBD /* SimpleStarWarsTests */,
+				65994EEF1AF145EE0079BFBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65994EEF1AF145EE0079BFBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65994EEE1AF145EE0079BFBD /* SimpleStarWars.app */,
+				65994F011AF145EE0079BFBD /* SimpleStarWarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65994EF01AF145EE0079BFBD /* SimpleStarWars */ = {
+			isa = PBXGroup;
+			children = (
+				65994EF51AF145EE0079BFBD /* AppDelegate.h */,
+				65994EF61AF145EE0079BFBD /* AppDelegate.m */,
+				65994EF81AF145EE0079BFBD /* Images.xcassets */,
+				65994EFA1AF145EE0079BFBD /* LaunchScreen.xib */,
+				65994EF11AF145EE0079BFBD /* Supporting Files */,
+			);
+			path = SimpleStarWars;
+			sourceTree = "<group>";
+		};
+		65994EF11AF145EE0079BFBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65994EF21AF145EE0079BFBD /* Info.plist */,
+				65994EF31AF145EE0079BFBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65994F041AF145EE0079BFBD /* SimpleStarWarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				65994F071AF145EE0079BFBD /* SimpleStarWarsTests.m */,
+				65994F051AF145EE0079BFBD /* Supporting Files */,
+			);
+			path = SimpleStarWarsTests;
+			sourceTree = "<group>";
+		};
+		65994F051AF145EE0079BFBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65994F061AF145EE0079BFBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65994EED1AF145EE0079BFBD /* SimpleStarWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65994F0B1AF145EE0079BFBD /* Build configuration list for PBXNativeTarget "SimpleStarWars" */;
+			buildPhases = (
+				65994EEA1AF145EE0079BFBD /* Sources */,
+				65994EEB1AF145EE0079BFBD /* Frameworks */,
+				65994EEC1AF145EE0079BFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleStarWars;
+			productName = SimpleStarWars;
+			productReference = 65994EEE1AF145EE0079BFBD /* SimpleStarWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65994F001AF145EE0079BFBD /* SimpleStarWarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65994F0E1AF145EE0079BFBD /* Build configuration list for PBXNativeTarget "SimpleStarWarsTests" */;
+			buildPhases = (
+				65994EFD1AF145EE0079BFBD /* Sources */,
+				65994EFE1AF145EE0079BFBD /* Frameworks */,
+				65994EFF1AF145EE0079BFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65994F031AF145EE0079BFBD /* PBXTargetDependency */,
+			);
+			name = SimpleStarWarsTests;
+			productName = SimpleStarWarsTests;
+			productReference = 65994F011AF145EE0079BFBD /* SimpleStarWarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65994EE61AF145EE0079BFBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Dolmake;
+				TargetAttributes = {
+					65994EED1AF145EE0079BFBD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					65994F001AF145EE0079BFBD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 65994EED1AF145EE0079BFBD;
+					};
+				};
+			};
+			buildConfigurationList = 65994EE91AF145EE0079BFBD /* Build configuration list for PBXProject "SimpleStarWars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65994EE51AF145EE0079BFBD;
+			productRefGroup = 65994EEF1AF145EE0079BFBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65994EED1AF145EE0079BFBD /* SimpleStarWars */,
+				65994F001AF145EE0079BFBD /* SimpleStarWarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65994EEC1AF145EE0079BFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65994EFC1AF145EE0079BFBD /* LaunchScreen.xib in Resources */,
+				65994EF91AF145EE0079BFBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65994EFF1AF145EE0079BFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65994EEA1AF145EE0079BFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65994EF71AF145EE0079BFBD /* AppDelegate.m in Sources */,
+				65994EF41AF145EE0079BFBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65994EFD1AF145EE0079BFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65994F081AF145EE0079BFBD /* SimpleStarWarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65994F031AF145EE0079BFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65994EED1AF145EE0079BFBD /* SimpleStarWars */;
+			targetProxy = 65994F021AF145EE0079BFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65994EFA1AF145EE0079BFBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65994EFB1AF145EE0079BFBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65994F091AF145EE0079BFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65994F0A1AF145EE0079BFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65994F0C1AF145EE0079BFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleStarWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65994F0D1AF145EE0079BFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleStarWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65994F0F1AF145EE0079BFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleStarWarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleStarWars.app/SimpleStarWars";
+			};
+			name = Debug;
+		};
+		65994F101AF145EE0079BFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleStarWarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleStarWars.app/SimpleStarWars";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65994EE91AF145EE0079BFBD /* Build configuration list for PBXProject "SimpleStarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65994F091AF145EE0079BFBD /* Debug */,
+				65994F0A1AF145EE0079BFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65994F0B1AF145EE0079BFBD /* Build configuration list for PBXNativeTarget "SimpleStarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65994F0C1AF145EE0079BFBD /* Debug */,
+				65994F0D1AF145EE0079BFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65994F0E1AF145EE0079BFBD /* Build configuration list for PBXNativeTarget "SimpleStarWarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65994F0F1AF145EE0079BFBD /* Debug */,
+				65994F101AF145EE0079BFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65994EE61AF145EE0079BFBD /* Project object */;
+}
