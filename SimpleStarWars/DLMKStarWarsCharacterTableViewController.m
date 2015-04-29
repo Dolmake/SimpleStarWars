@@ -17,6 +17,8 @@
 
 @implementation DLMKStarWarsCharacterTableViewController
 
+NSString* CELL_ID = @"CELL_ID";
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -26,7 +28,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"CELL_ID"];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CELL_ID];
     [self loadData];
 }
 
@@ -51,16 +53,16 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CELL_ID" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CELL_ID forIndexPath:indexPath];
     
     if (cell == nil){
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CELL_ID" ];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CELL_ID];
     }
     
     // Configure the cell...
     cell.backgroundColor = [UIColor orangeColor ];
     cell.textLabel.text = [self.characters[indexPath.row] name];
-    
+    cell.imageView.image = [self.characters[indexPath.row] photo];
     return cell;
 }
 
@@ -128,10 +130,10 @@
 -(void) loadData{
     
     
-    DLMKStarWarsCharacter* yoda = [[DLMKStarWarsCharacter alloc] initWith:@"Yoda" andPhoto:nil];
-        DLMKStarWarsCharacter* c3po = [[DLMKStarWarsCharacter alloc] initWith:@"C3po" andPhoto:nil];
-        DLMKStarWarsCharacter* chew = [[DLMKStarWarsCharacter alloc] initWith:@"Chewbacca" andPhoto:nil];
-        DLMKStarWarsCharacter* vader = [[DLMKStarWarsCharacter alloc] initWith:@"DarthVader" andPhoto:nil];
+    DLMKStarWarsCharacter* yoda = [[DLMKStarWarsCharacter alloc] initWith:@"Yoda" andPhoto:[UIImage imageNamed:@"yoda.jpg"]];
+        DLMKStarWarsCharacter* c3po = [[DLMKStarWarsCharacter alloc] initWith:@"C3po" andPhoto:[UIImage imageNamed:@"c3po.jpg"]];
+        DLMKStarWarsCharacter* chew = [[DLMKStarWarsCharacter alloc] initWith:@"Chewbacca" andPhoto:[UIImage imageNamed:@"chewbacca.jpg"]];
+        DLMKStarWarsCharacter* vader = [[DLMKStarWarsCharacter alloc] initWith:@"DarthVader" andPhoto:[UIImage imageNamed:@"darthVader.jpg"]];
     
     self.characters = @[yoda, c3po, chew, vader];
     
