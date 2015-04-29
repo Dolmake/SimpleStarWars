@@ -8,6 +8,7 @@
 
 #import "DLMKStarWarsCharacterTableViewController.h"
 #import "DLMKStarWarsCharacter.h"
+#import "DLMKWikiViewController.h"
 
 @interface DLMKStarWarsCharacterTableViewController ()
 
@@ -107,16 +108,8 @@ NSString* CELL_ID = @"CELL_ID";
 
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    /*// Navigation logic may go here, for example:
-    // Create the next view controller.
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:<#@"Nib name"#> bundle:nil];
-    
-    // Pass the selected object to the new view controller.
-    
-    // Push the view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];*/
-    
-    
+    DLMKWikiViewController* wiki = [[DLMKWikiViewController alloc]  initWithURL:@"http://www.8picaros.com" ];
+    [self.navigationController pushViewController:wiki animated:YES];
 }
 
 
