@@ -27,6 +27,7 @@ NSString* CELL_ID = @"CELL_ID";
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.title = @"Starwars Rocks!!!!!";
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CELL_ID];
     [self loadData];

@@ -21,8 +21,12 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
+    UINavigationController* nav = [[UINavigationController alloc] initWithNibName:nil bundle:nil];
+    
     DLMKStarWarsCharacterTableViewController* starWarsTVC = [[DLMKStarWarsCharacterTableViewController alloc] initWithNibName:nil bundle:nil];
-    self.window.rootViewController = starWarsTVC;
+    [nav pushViewController:starWarsTVC animated:NO ];
+    
+    self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
     return YES;
